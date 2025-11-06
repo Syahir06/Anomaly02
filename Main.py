@@ -28,7 +28,7 @@ st.title("🎬 TV Program Scheduling Optimizer (Genetic Algorithm)")
 st.write("This app automatically loads the dataset and runs multiple GA trials to find the best schedule.")
 
 # ---- Auto-load CSV ----
-file_path = "program_ratings.csv"  # <-- Automatically loaded
+file_path = "program_ratings (1).csv"  # <-- Automatically loaded
 program_ratings_dict = read_csv_to_dict(file_path)
 
 if not program_ratings_dict:
